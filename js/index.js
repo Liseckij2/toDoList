@@ -3,9 +3,6 @@ let inputEl = document.querySelector(".container__input"),
   toDoListEl = document.querySelector(".todo");
 
 buttonEl.addEventListener("click", () => {
-  if (inputEl.value === '') {
-    return
-  }
   let createDiv = document.createElement("div");
   createDiv.className = "note";
 
