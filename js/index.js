@@ -27,7 +27,7 @@ buttonEl.addEventListener("click", () => {
   toDoListEl.appendChild(createDiv);
 
   createDiv.addEventListener("click", () => {
-    console.log("click");
+//     console.log("click");
     if (createInput.checked === true) {
       createSpan.classList.add("class");
     } else if (createInput.checked === false) {
