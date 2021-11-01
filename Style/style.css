@@ -13,7 +13,7 @@ overflow-y: hidden;
 * {
 box-sizing: border-box;
 }
-#container {
+.container {
     max-width: 400px;
     min-height: 600px;
     padding: 20px 40px;
@@ -23,31 +23,34 @@ h1 {
     font-size: 2rem;
     text-align: center;
 }
-input {
+.container>input {
     width: 70%;
 }
-button {
+.container__button {
     width: 30%;
 }
-button:hover {
+.container__button:hover {
     transition-duration: .5s;
     background: black;
     color: white;
     cursor: pointer;
 }
 
-#todo > div  {
+.todo > div  {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-#todo > div > input {
-    width: 15px;
+
+.checkbox_checked {
     margin-left: 0;
 }
-span {
+.todo > div >span {
+    width: 33%;
     font-size: 16px;
+    text-align: center;
 }
+
 .class {
     text-decoration:line-through;
 }
